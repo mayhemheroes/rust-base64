@@ -1,0 +1,5 @@
+project: rust-base64
+target: decode_random
+
+cmds:
+  - cmd: /decode_random

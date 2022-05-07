@@ -1,0 +1,5 @@
+project: rust-base64
+target: roundtrip_no_pad
+
+cmds:
+  - cmd: /roundtrip_no_pad
