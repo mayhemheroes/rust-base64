@@ -9,7 +9,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  DECODE_RANDOM: DECODE_RANDOM.mayhemfile
+  DECODE_RANDOM: decode_random.mayhemfile
   ROUNDTRIP_NO_PAD: roundtrip_no_pad.mayhemfile
   ROUNDTRIP_RANDOM_CONFIG: roundtrip_random_config.mayhemfile
   ROUNDTRIP: roundtrip.mayhemfile
