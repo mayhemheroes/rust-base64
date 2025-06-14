@@ -41,13 +41,10 @@ const ALPHABET_SIZE: usize = 64;
 /// Building lazily:
 ///
 /// ```
-/// use base64::{
-///     alphabet::Alphabet,
-///     engine::{general_purpose::GeneralPurpose, GeneralPurposeConfig},
-/// };
-/// use once_cell::sync::Lazy;
+/// use base64::alphabet::Alphabet;
+/// use std::sync::LazyLock;
 ///
-/// static CUSTOM: Lazy<Alphabet> = Lazy::new(||
+/// static CUSTOM: LazyLock<Alphabet> = LazyLock::new(||
 ///     Alphabet::new("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/").unwrap()
 /// );
 /// ```

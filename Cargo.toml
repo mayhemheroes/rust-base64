@@ -44,7 +44,6 @@ strum = { version = "0.25", features = ["derive"] }
 # test fixtures for engine tests
 rstest = "0.13.0"
 rstest_reuse = "0.6.0"
-once_cell = "1"
 
 [features]
 default = ["std"]
