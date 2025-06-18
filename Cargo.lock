@@ -170,7 +170,6 @@ version = "0.22.1"
 dependencies = [
  "clap",
  "criterion",
- "once_cell",
  "rand",
  "rstest",
  "rstest_reuse",
